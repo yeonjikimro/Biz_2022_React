@@ -19,6 +19,10 @@
     <p class="text"></p>
 
     <script>
+      /*
+        input box 에 text 를 키보드로 입력하면
+        그 문자열을 추출하여 바로 p tag 에 보여달라
+        */
       const input_text = document.querySelector("input[name='text']");
       input_text?.addEventListener("input", (e) => {
         const value = e.target.value;
