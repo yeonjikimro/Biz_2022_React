@@ -47,10 +47,6 @@ const BucketInput = () => {
 
   return (
     <>
-      <input name="b_name" placeholder="식품명" className="w3-input" />
-      <input name="b_amount" placeholder="섭취량" className="w3-input" />
-      <input name="b_cal" placeholder="칼로리" className="w3-input" />
-      <button onClick={onClick}>섭취정보 등록</button>
       <table width="100%">
         <tr>
           <th>날짜</th>
@@ -61,6 +57,10 @@ const BucketInput = () => {
         </tr>
       </table>
       <BucketList bucketList={bucketList} />
+      <input name="b_name" placeholder="식품명" className="w3-input" />
+      <input name="b_amount" placeholder="섭취량" className="w3-input" />
+      <input name="b_cal" placeholder="칼로리" className="w3-input" />
+      <button onClick={onClick}>섭취정보 등록</button>
     </>
   );
 };

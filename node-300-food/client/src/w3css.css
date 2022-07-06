@@ -245,6 +245,10 @@ img {
 a {
   color: inherit;
 }
+button {
+  display: inline-block;
+  float: right;
+}
 .w3-table,
 .w3-table-all {
   border-collapse: collapse;
@@ -376,7 +380,7 @@ a {
   display: block;
   border: none;
   border-bottom: 1px solid #ccc;
-  width: 100%;
+  width: 30%;
 }
 .w3-select {
   padding: 9px 0;
